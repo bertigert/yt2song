@@ -40,4 +40,4 @@ Downloads the 5 second snippet, skips the removal of the vocals and uses the ori
 ```
 python main.py -l https://www.youtube.com/watch?v=GHYg8cmUiKM -t 7:30-7:35 -f -sv -sa -o
 ```
-Does not download anything, does not remove the vocals, only scans the files already present in the output directory, including the original file.
+Does not download anything, does not remove the vocals, only scans the files already present in the output directory, including the original file. Useful when a previous run failed (can happend, it has bugs which i wont fix right now)
