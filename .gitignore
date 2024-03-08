@@ -2,3 +2,4 @@ api_tokens.csv
 stats.json
 musixmatch.py
 gen_audd_accs.py
+/__pycache__
