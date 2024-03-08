@@ -1,0 +1,4 @@
+shazamio
+yt-dlp
+websocket-client
+cryptography

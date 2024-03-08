@@ -1,0 +1,19 @@
+{
+    "vocalremovers": {
+        "vocalremovermediaio": true,
+        "vocalremoverorg": true,
+        "lalalai": true
+    },
+    "songidentifiers": {
+        "shazam": true,
+        "audD": true
+    },
+    "apikeys": {
+        "audD": [
+            "5532616370aa88c7a7cae1c4086fed7a",
+            "44c0b682f0ebef17ce66827a9ee9122e",
+            "ea8ce2c8632134033f516dca6d01606f",
+            "592e9ec40a0048adf53891b074e0557d"
+        ]
+    }
+}
