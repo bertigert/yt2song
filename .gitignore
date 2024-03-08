@@ -1,5 +1,5 @@
 api_tokens.csv
-stats.json
 musixmatch.py
+config.json
 gen_audd_accs.py
 /__pycache__
