@@ -24,7 +24,7 @@ Vocal Removers:
 ```
 python main.py -l link -t hh:mm:ss-hh:mm:ss <options>
 ```
-Note that every file in the ./outputs/ directory gets scanned in the end.
+Note: Every file in the ./outputs/ directory gets scanned in the end. Using -f in combination with -sv breaks the script.
 
 ### Examples:
 ```
@@ -33,7 +33,7 @@ python main.py -l https://www.youtube.com/watch?v=GHYg8cmUiKM -t 7:30-7:35 -f
 Downloads the 5 second snippet, removes the vocals and uses the first vocalremover which finishes to detect the song.
 
 ```
-python main.py -l https://www.youtube.com/watch?v=GHYg8cmUiKM -t 7:30-7:35 -f -sv -o
+python main.py -l https://www.youtube.com/watch?v=GHYg8cmUiKM -t 7:30-7:35 -sv -o
 ```
 Downloads the 5 second snippet, skips the removal of the vocals and uses the original file to detect the song. Note that without the -o the original file wouldn't be scanned.
 
