@@ -102,7 +102,7 @@ class AudDIO:
             })
 
             
-            if not r.status in (401):#, 500, 200): # for some reason only works if it is 401, 200 doesnt send the email, 500 breaks it later on
+            if not r.status in (401,):# 500, 200): # for some reason only works if it is 401, 200 doesnt send the email, 500 breaks it later on
                 return None
             
             return s, state
@@ -162,7 +162,6 @@ class AudDIO:
         
 
         r = await s.get("https://dashboard.audd.io/api/js.php?url=https%3A%2F%2Fdashboard.audd.io%2F")
-        print("9", r.status)
         
         if r.status != 200:
             return False
@@ -180,7 +179,7 @@ class AudDIO:
 
 # generate audio api_keys which is highly unreliable (due to their auth tho)
 if __name__ == "__main__":
-    from temp_mails import temp_mailboxdotcom # see 
+    from temp_mails import temp_mailboxdotcom # requires some form of mail api, you may need to implement a wrapper
     from random import choices
     from string import ascii_lowercase, ascii_uppercase, digits
     import os
