@@ -6,7 +6,7 @@
     },
     "songidentifiers": {
         "shazam": true,
-        "audD": true
+        "audD": false
     },
     "apikeys": {
         "audD": [
